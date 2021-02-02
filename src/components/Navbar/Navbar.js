@@ -1,12 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom';
-import Home from '../pages/Home/Home';
-import About from '../pages/About/About';
-import Cards from '../pages/Cards/Cards';
-import Plans from '../pages/Plans/Plans';
-import Registration from '../pages/Registration/Registration';
 
-// import { Home, About, Cards, Plans, Registration} from './components/pages';
+import { Home, About, Cards, Plans, Registration} from "../index";
 
 // icons
 import { FaBars } from 'react-icons/fa';
