@@ -1,10 +1,23 @@
 import React from 'react'
 import { BrowserRouter as Router, Link, Switch, Route} from 'react-router-dom';
+import Home from '../pages/Home/Home';
+import About from '../pages/About/About';
+import Cards from '../pages/Cards/Cards';
+import Plans from '../pages/Plans/Plans';
+import Registration from '../pages/Registration/Registration';
+
+// logo image
 
 function Navbar() {
     return (
         <Router>
             <div className="navbar">
+
+                {/* logo  */}
+
+                <Link to="/">
+                    <img src="/img/logo.png" alt="logo" />
+                </Link>
                 <nav>
                     <ul>
                         <li>
@@ -32,30 +45,30 @@ function Navbar() {
                 {/* switch the routes */}
 
                 <Switch>
+
                     {/* renders home page */}
-                    <Route path="/">
+                    <Route exact path="/">
                         <Home />
                     </Route>
                      
-                      {/* renders home page */}
-
+                    {/* renders about page */}
                     <Route path="/about">
                         <About />
                     </Route>
 
-                     {/* renders home page */}
+                     {/* renders types of cards page */}
                     <Route path="/cards">
                         <Cards />
                     </Route>
 
-                    {/* renders home page */}
+                    {/* renders plans page */}
                     <Route path="/plans">
                         <Plans />
                     </Route>
 
-                    {/* renders home page */}
+                    {/* renders registration page */}
                     <Route path="/registration">
-                        <Registration />
+                        <Registration/>
                     </Route>
                 </Switch>
             </div>
