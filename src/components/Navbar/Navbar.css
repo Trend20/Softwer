@@ -9,8 +9,7 @@
 
 .logo{
     display: flex;
-    width: 20%;
-    justify-content: center;
+    width: 50%;
     cursor: pointer;
 }
 
@@ -58,4 +57,5 @@ Link{
     right: 5%;
     top: 5%;
     font-size: 2rem;
+    display: none;
 }
