@@ -2,4 +2,56 @@
     display: flex;
     padding: 30px;
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo img{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    text-decoration: none;
+}
+
+Link{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.toggle{
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 2rem;
 }

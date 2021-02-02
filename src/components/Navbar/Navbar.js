@@ -20,29 +20,49 @@ function Navbar() {
 
                 {/* logo  */}
 
-                <Link to="/">
+                <Link to="/" className="logo">
                     <img src="/img/logo.png" alt="logo" />
                 </Link>
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/"
+                            style={{ fontWeight: '700',
+                            textDecoration: 'none',
+                            cursor: 'pointer'
+                            }}>Home</Link>
                         </li>
 
                         <li>
-                            <Link to="/about">About</Link>
+                            <Link to="/about"
+                            style={{ fontWeight: '700',
+                            textDecoration: 'none',
+                            cursor: 'pointer'
+                            }}>About</Link>
                         </li>
 
                         <li>
-                            <Link to="/cards">Types of Cards</Link>
+                            <Link to="/cards"
+                            style={{ fontWeight: '700',
+                            textDecoration: 'none',
+                            cursor: 'pointer'
+                            }}>Types of Cards</Link>
                         </li>
 
                         <li>
-                            <Link to="/plans">Plans</Link>
+                            <Link to="/plans"
+                            style={{ fontWeight: '700',
+                            textDecoration: 'none',
+                            cursor: 'pointer'
+                            }}>Plans</Link>
                         </li>
 
                         <li>
-                            <Link to="/registration">Registration</Link>
+                            <Link to="/registration" 
+                            style={{ fontWeight: '700',
+                                     textDecoration: 'none',
+                                     cursor: 'pointer'
+                            }}>Registration</Link>
                         </li>
                     </ul>
                 </nav>
