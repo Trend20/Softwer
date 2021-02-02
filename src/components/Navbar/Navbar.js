@@ -28,6 +28,36 @@ function Navbar() {
                         </li>
                     </ul>
                 </nav>
+
+                {/* switch the routes */}
+
+                <Switch>
+                    {/* renders home page */}
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                     
+                      {/* renders home page */}
+
+                    <Route path="/about">
+                        <About />
+                    </Route>
+
+                     {/* renders home page */}
+                    <Route path="/cards">
+                        <Cards />
+                    </Route>
+
+                    {/* renders home page */}
+                    <Route path="/plans">
+                        <Plans />
+                    </Route>
+
+                    {/* renders home page */}
+                    <Route path="/registration">
+                        <Registration />
+                    </Route>
+                </Switch>
             </div>
         </Router>
     )
