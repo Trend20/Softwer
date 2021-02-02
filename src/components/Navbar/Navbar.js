@@ -6,6 +6,16 @@ import Cards from '../pages/Cards/Cards';
 import Plans from '../pages/Plans/Plans';
 import Registration from '../pages/Registration/Registration';
 
+// import { Home, About, Cards, Plans, Registration} from './components/pages';
+
+// icons
+import { FaBars } from 'react-icons/fa';
+
+
+// navbar styles
+
+import './Navbar.css';
+
 // logo image
 
 function Navbar() {
@@ -41,6 +51,8 @@ function Navbar() {
                         </li>
                     </ul>
                 </nav>
+
+                <i className="toggle"> <FaBars /> </i>
 
                 {/* switch the routes */}
 
