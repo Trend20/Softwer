@@ -25,7 +25,7 @@ function Navbar() {
                 </Link>
                 <nav>
                     <ul>
-                        <li>
+                        <li className="active">
                             <Link to="/"
                             style={{ fontWeight: '700',
                             textDecoration: 'none',

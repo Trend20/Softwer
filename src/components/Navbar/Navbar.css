@@ -40,8 +40,12 @@ nav ul{
 nav ul li{
     display: flex;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
+nav ul li.active{
+    border-bottom: 4px solid #2131c0;
+}
 Link{
     cursor: pointer;
     text-decoration: none;
