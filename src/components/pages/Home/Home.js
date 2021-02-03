@@ -15,6 +15,22 @@ function Home() {
                         <img src="/img/hero-mg1.png" alt="slide1" />
                 </div>
             </div>
+
+
+            {/* card section */}
+
+            <div className="card">
+                <div className="card-text">
+                    <h3>Take control of your finances. With just one app.</h3>
+                    <p>
+                      No more worries about your cash expenses. With the help of our application, you will have the opportunity to check and regulate your finances anytime you want.
+                    </p>
+                </div>
+
+                <div className="card-image">
+                    <img src="/img/card.png" alt="card" />
+                </div>
+            </div>
         </div>
     )
 }
