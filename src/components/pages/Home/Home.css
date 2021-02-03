@@ -63,7 +63,6 @@
         display: flex;
         width: 100%;
         padding: 30px 20px;
-        background: rgb(210, 231, 214);
         flex-direction: column;
     }
     
@@ -214,6 +213,7 @@
     display: flex;
     padding: 150px 30px;
     width: 100%;
+    background: rgb(245, 245, 245);
 }
 
 
@@ -251,4 +251,81 @@
     margin-top: 30px;
     font-size: 1.3rem;
     line-height: 1.5;
+}
+
+
+/* responsiveness */
+
+@media screen and  (max-width: 991px){
+    .travel{
+        display: flex;
+        padding: 150px 30px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    .travel-img{
+        display: flex;
+        width: 100%;
+    }
+    
+    .travel-img img{
+        max-width: 100%;
+    }
+    
+    
+    .travel-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .travel-text h1{
+        font-size: 2rem;
+        width: 100%;
+        display: flex;
+    }
+    
+    .travel-text h5{
+        font-size: 1.5rem;
+        color: blue;
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .travel-text p{
+        margin-top: 30px;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    
+}
+/* end of travel section */
+
+/* account-demo section */
+
+.account-demo{
+    display: flex;
+    width: 100%;
+    padding: 100px 30px;
+    align-items: center;
+}
+
+.demo-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.demo-text h1{
+    font-size: 3rem;
+}
+
+.demo-text p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    width: 90%;
 }

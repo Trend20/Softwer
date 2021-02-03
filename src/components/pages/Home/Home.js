@@ -47,6 +47,21 @@ function Home() {
                     <p>Wherever you are, you are one click apart from making any purchase you want</p>
                 </div>
             </div>
+
+            {/* account info*/}
+
+            <div className="account-demo">
+                <div className="demo-text">
+                    <h1>Get clarity over your money, in ways you`d never expect</h1>
+                    <p>
+                      In case you ever feel worried about the safety of your accounts, our application will give you completely clear report based on your charges.
+                    </p>
+                </div>
+
+                <div className="demo-image">
+                    <img src="/img/demo.png" alt="demo" />
+                </div>
+            </div>
         </div>
     )
 }
