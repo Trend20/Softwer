@@ -381,3 +381,16 @@
     
 }
 /* end of demo section */
+
+/* chat section */
+
+.chat{
+    display: flex;
+    width: 100%;
+    padding: 100px 30px;
+    margin: 20px;
+    background: linear-gradient(to top, rgb(245, 231, 231), rgb(210, 231, 214));
+}
+
+
+/* end of chat section */

@@ -1,6 +1,9 @@
 import React from 'react'
 import './Home.css';
 
+import { FaFacebook, FaTwitter, FaLinkedin,} from 'react-icons/fa';
+import { MdCastConnected } from 'react-icons/md';
+
 function Home() {
     return (
         <div className="home-page">
@@ -60,6 +63,31 @@ function Home() {
 
                 <div className="demo-image">
                     <img src="/img/demo.png" alt="demo" />
+                </div>
+            </div>
+
+            {/* chat section */}
+
+            <div className="chat">
+                <div className="chat-image">
+                    <img src="/img/chatbg.png" />
+                </div>
+
+                <div className="chat-text">
+                    <h1>Chat us, tweet us, email us</h1>
+                    <p>
+                      An experienced team of friendly and reliable technical support specialists will help you in solving complicated and urgent questions.
+                    </p>
+
+                    <img src="/img/chat.png"  alt="chat"/>
+
+                    <div className="social">
+                        <p>Follow Us:</p>
+                        <i><MdCastConnected /></i>
+                        <i><FaFacebook /></i>
+                        <i><FaTwitter ></FaTwitter></i>
+                        <i><FaLinkedin /></i>
+                    </div>
                 </div>
             </div>
         </div>
