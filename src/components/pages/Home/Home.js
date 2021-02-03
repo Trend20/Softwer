@@ -31,6 +31,22 @@ function Home() {
                     <img src="/img/card.png" alt="card" />
                 </div>
             </div>
+
+            {/* travel section */}
+
+            <div className="travel">
+                <div className="travel-img">
+                    <img src="/img/travel.png" alt="travel" />
+                </div>
+
+                <div className="travel-text">
+                    <h1>Travel like you never left</h1>
+                    <h5>Spend anywhere</h5>
+                    <p>Feel the unique advantages of using the application in every corner of the world</p>
+                    <h5>Get up and go</h5>
+                    <p>Wherever you are, you are one click apart from making any purchase you want</p>
+                </div>
+            </div>
         </div>
     )
 }
