@@ -1,21 +1,21 @@
 .home-page{
     display: flex;
     width: 100%;
-    padding: 50px 0px;
     flex-direction: column;
-    background: rgb(210, 231, 214);
 }
 
 .hero{
     display: flex;
     width: 100%;
+    padding: 70px 3px;
+    background: rgb(210, 231, 214);
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 100px 50px;
+    margin: 100px;
 }
 
 .hero-text h5{
@@ -161,3 +161,50 @@
 .card-image img{
     width: 100%;
 }
+
+
+/* responsiveness */
+
+@media screen and (max-width: 991px){
+    .card{
+        display: flex;
+        width: 100%;
+        background: rgb(245, 231, 231);
+        padding: 30px;
+        flex-direction: column;
+    }
+    
+    .card-text{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 30px 0px;
+        margin-left: 0px;
+    }
+    
+    .card-text h3{
+        font-size: 2rem;
+        width: 90%;
+        margin-top: 30px;
+    }
+    
+    .card-description{
+        margin-top: 30px;
+        font-size: 1rem;
+        line-height: 1.5;
+        width: 100%;
+    }
+    
+    .card-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-image img{
+        width: 100%;
+    }    
+}
+/* end of card section */
+
