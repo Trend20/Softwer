@@ -22,7 +22,7 @@ function Home() {
             <div className="card">
                 <div className="card-text">
                     <h3>Take control of your finances. With just one app.</h3>
-                    <p>
+                    <p className="card-description">
                       No more worries about your cash expenses. With the help of our application, you will have the opportunity to check and regulate your finances anytime you want.
                     </p>
                 </div>
