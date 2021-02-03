@@ -83,10 +83,12 @@ function Home() {
 
                     <div className="social">
                         <p>Follow Us:</p>
+                        <div className="icons">
                         <i><MdCastConnected /></i>
                         <i><FaFacebook /></i>
                         <i><FaTwitter ></FaTwitter></i>
                         <i><FaLinkedin /></i>
+                        </div>
                     </div>
                 </div>
             </div>

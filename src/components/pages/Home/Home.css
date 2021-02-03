@@ -387,10 +387,47 @@
 .chat{
     display: flex;
     width: 100%;
-    padding: 100px 30px;
+    padding-top: 100px;
     margin: 20px;
     background: linear-gradient(to top, rgb(245, 231, 231), rgb(210, 231, 214));
 }
 
+.chat-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.chat-image img{
+    display: flex;
+    max-width: 100%;
+}
+
+.chat-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.chat-text h1{
+    width: 50%;
+    font-size: 3.5rem;
+}
+
+.chat-text p{
+    margin-top: 50px;
+    width: 60%;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.chat-text img{
+    margin-top: 30px;
+    max-width: 60%;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
 /* end of chat section */
