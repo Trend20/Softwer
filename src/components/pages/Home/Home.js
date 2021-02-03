@@ -82,12 +82,16 @@ function Home() {
                     <img src="/img/chat.png"  alt="chat"/>
 
                     <div className="social">
-                        <p>Follow Us:</p>
+
+                       <div className="head">
+                            <p>Follow Us:</p>
+                        </div>
+                        
                         <div className="icons">
-                        <i><MdCastConnected /></i>
-                        <i><FaFacebook /></i>
-                        <i><FaTwitter ></FaTwitter></i>
-                        <i><FaLinkedin /></i>
+                           <i><MdCastConnected /></i>
+                           <i><FaFacebook /></i>
+                           <i><FaTwitter ></FaTwitter></i>
+                           <i><FaLinkedin /></i>
                         </div>
                     </div>
                 </div>

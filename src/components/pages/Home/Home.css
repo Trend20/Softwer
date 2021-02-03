@@ -388,7 +388,7 @@
     display: flex;
     width: 100%;
     padding-top: 100px;
-    margin: 20px;
+    margin-bottom: 20px;
     background: linear-gradient(to top, rgb(245, 231, 231), rgb(210, 231, 214));
 }
 
@@ -429,5 +429,92 @@
 .social{
     display: flex;
     align-items: center;
+    width: 50%;
+}
+
+.head{
+    display: flex;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    margin-top: 50px;
+}
+
+.icons i{
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 991px){
+    .chat{
+        display: flex;
+        width: 100%;
+        padding-top: 100px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        background: linear-gradient(to top, rgb(245, 231, 231), rgb(210, 231, 214));
+    }
+    
+    .chat-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .chat-image img{
+        display: flex;
+        max-width: 100%;
+    }
+    
+    .chat-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .chat-text h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    .chat-text p{
+        margin-top: 20px;
+        width: 80%;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .chat-text img{
+        margin-top: 30px;
+        max-width: 60%;
+    }
+    
+    .social{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .head{
+        display: flex;
+        font-weight: 600;
+        width: 100%;
+    }
+    
+    .icons{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .icons i{
+      margin-left: 10px;
+      font-size: 1rem;
+    }
 }
 /* end of chat section */
