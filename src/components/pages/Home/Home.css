@@ -54,3 +54,67 @@
 .hero-slides img{
     width: 100%;
 }
+
+/* responsiveness */
+
+@media screen and (max-width:991px){
+    .home-page{
+        display: flex;
+        width: 100%;
+        padding: 30px 20px;
+        background: rgb(210, 231, 214);
+        flex-direction: column;
+    }
+    
+    .hero{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 20px;
+    }
+    
+    .hero-text h5{
+        font-size: 1.5rem;
+        color: blue;
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .hero-text h1{
+        font-size: 2rem;
+        width: 90%;
+        margin-top: 20px;
+        line-height: 1;
+    }
+    
+    .hero-text button{
+        width: 50%;
+        margin-top: 30px;
+        padding: 20px;
+        color: #fff;
+        font-weight: 700;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        border-radius: 7px;
+        background: rgb(57, 189, 123);
+    }
+    
+    .hero-slides{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .hero-slides img{
+        width: 100%;
+    }
+}
