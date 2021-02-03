@@ -68,8 +68,9 @@ function Navbar() {
                 </nav>
 
                 <i className="toggle"> <FaBars /> </i>
+            </div>
 
-                {/* switch the routes */}
+             {/* switch the routes */}
 
                 <Switch>
 
@@ -98,7 +99,6 @@ function Navbar() {
                         <Registration/>
                     </Route>
                 </Switch>
-            </div>
         </Router>
     )
 }
