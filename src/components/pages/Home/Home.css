@@ -1,0 +1,56 @@
+.home-page{
+    display: flex;
+    width: 100%;
+    padding: 50px 70px;
+    background: rgb(210, 231, 214);
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px 50px;
+}
+
+.hero-text h5{
+    font-size: 1.5rem;
+    color: blue;
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-text h1{
+    font-size: 5rem;
+    width: 80%;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.hero-text button{
+    width: 70%;
+    margin-top: 30px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    background: rgb(57, 189, 123);
+}
+
+.hero-slides{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-slides img{
+    width: 100%;
+}
