@@ -671,3 +671,7 @@ footer{
     justify-content: space-between;
     cursor: pointer;
 }
+
+.copyright{
+    margin-top: 20px;
+}
