@@ -8,7 +8,7 @@ function Cards() {
                 <div className="card-intro-text">
                     <h1>Choose the card and package that suits you best</h1>
                     <p>We will help you make a decision on what card to choose. Depending on your needs, our team is ready to give you a piece of advice.</p>
-                    <button>View all plans</button>
+                    <button className="card-btn">View all plans</button>
                 </div>
 
                 <div className="card-intro-img">
