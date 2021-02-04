@@ -15,6 +15,26 @@ function Cards() {
                     <img src="/img/cardintro.png" alt="card"/>
                 </div>
             </div>
+
+
+            {/* standard card */}
+
+            <div className="standard">
+                <div className="standard-img">
+                    <img src="/img/standard.png" alt="standard" />
+                </div>
+
+                <div className="standard-text">
+                    <h1>Standard Card</h1>
+                    <p>Such type will be useful for people who want to start checking their casual cherges</p>
+
+                    <div className="options">
+                        <p>Theft insurance</p>
+                        <p>Foreign medical expenses</p>
+                        <p>Extended goods warranty</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
