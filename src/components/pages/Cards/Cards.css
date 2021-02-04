@@ -9,7 +9,7 @@
     padding: 30px;
     padding-top: 150px;
     width: 100%;
-    background: rgb(218, 243, 232);
+    background: linear-gradient(to bottom, rgb(218, 243, 232), rgb(252, 237, 237));
 }
 
 .card-intro-text{
@@ -55,4 +55,50 @@
 
 .card-intro-img img{
     max-width: 100%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 991px){
+    .cards{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .card-intro{
+        flex-direction: column;
+        padding: 20px;
+        padding-top: 30px;
+    }
+    
+    .card-intro-text{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .card-intro-text h1{
+        font-size: 2rem;
+        width: 100%;
+    }
+    
+    .card-intro-text p{
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    .card-btn{
+        width: 60%;
+    }
+    
+    .card-intro-img{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .card-intro-img img{
+        max-width: 100%;
+    }
 }
