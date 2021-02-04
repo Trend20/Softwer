@@ -29,5 +29,30 @@
 .plans-head h3{
     font-size: 1.5rem;
     color: blue;
+    margin-top: 30px;
+}
+
+.card-container{
+    display: grid;
     margin-top: 50px;
+    grid-template-columns: repeat(3, 2fr);
+    width: 100%;
+    grid-gap: 20px;
+}
+
+.price-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #177f9e;
+    padding: 50px;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.price-card h3{
+    font-size: 2rem;
 }
