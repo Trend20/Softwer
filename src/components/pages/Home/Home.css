@@ -641,3 +641,33 @@ footer{
     margin-left: 10px;
     text-decoration: none;
 }
+
+.footer-icons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons p{
+    width: 10%;
+    font-weight: 700;
+}
+
+.icon-fonts{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-fonts i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.footer-images{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
