@@ -1,5 +1,6 @@
 import React from 'react'
 import { TiTick} from 'react-icons/ti';
+import Footer from '../../Footer/Footer';
 
 import './Plans.css';
 
@@ -34,7 +35,7 @@ function Plans() {
                       <button>Open account</button>
                   </div>
 
-                  <div className="price-card" id="standard">
+                  <div className="price-card" id="business">
                       <h3>Business Card</h3>
                       <h1>
                           <sub>$</sub>119<sub>/mon</sub>
@@ -56,7 +57,7 @@ function Plans() {
                       <button>Open account</button>
                   </div>
 
-                  <div className="price-card" id="standard">
+                  <div className="price-card" id="platinum">
                       <h3>Platinum Card</h3>
                       <h1>
                           <sub>$</sub>149<sub>/mon</sub>
@@ -79,6 +80,16 @@ function Plans() {
                   </div>
               </div>
             </div>
+
+            {/* sign-up */}
+            <div className="sign-up">
+                <h1>Sign up and get your bank account in 8 minutes</h1>
+                <p>Sign up right now and enjoy the wide variety of possibilities which our application provides.</p>
+                <button className="button">Open bank account</button>
+            </div>
+
+
+            <Footer />
         </div>
     )
 }
