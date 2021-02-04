@@ -2,6 +2,8 @@ import React from 'react'
 import { BiRightArrow } from 'react-icons/bi'
 import './Cards.css';
 
+import Footer from '../../Footer/Footer';
+
 function Cards() {
     return (
         <div className="cards">
@@ -98,6 +100,8 @@ function Cards() {
                     <button className="card-btn">Open bank account</button>
                 </div>
             </div>
+
+            <Footer />
         </div>
     )
 }
