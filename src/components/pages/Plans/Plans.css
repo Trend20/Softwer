@@ -56,3 +56,31 @@
 .price-card h3{
     font-size: 2rem;
 }
+
+.price-card h1{
+    font-size: 5rem;
+}
+
+.price-card h1 sub{
+    font-size: 1.5rem;
+}
+
+.price-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.price-list p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.price-card button{
+    margin-top: 30px;
+    padding: 30px;
+    width: 80%;
+    cursor: pointer;
+    font-weight: 700;
+}
