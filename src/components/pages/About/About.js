@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import Footer from '../../Footer/Footer';
 
 function About() {
     return (
@@ -83,6 +84,15 @@ function About() {
                     </div>
                 </div>
             </div>
+
+             {/* sign-up */}
+             <div className="sign-up">
+                <h1>Sign up and get your bank account in 8 minutes</h1>
+                <p>Sign up right now and enjoy the wide variety of possibilities which our application provides.</p>
+                <button className="button">Open bank account</button>
+            </div>
+
+            <Footer />
         </div>
     )
 }
