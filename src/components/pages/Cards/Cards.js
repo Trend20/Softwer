@@ -44,6 +44,34 @@ function Cards() {
                     <button className="card-btn">Open bank account</button>
                 </div>
             </div>
+
+
+            {/* business */}
+            <div className="business">
+
+                <div className="standard-text">
+                    <h1>Standard Card</h1>
+                    <p>Such type will be useful for people who want to start checking their casual cherges</p>
+
+                    <div className="options">
+                        <p>
+                        <i><BiRightArrow /></i>
+                            Theft insurance</p>
+                        <p>
+                        <i><BiRightArrow /></i>
+                            Foreign medical expenses</p>
+                        <p>
+                        <i><BiRightArrow /></i>
+                            Extended goods warranty</p>
+                    </div>
+
+                    <button className="card-btn">Open bank account</button>
+                </div>
+
+                <div className="business-img">
+                    <img src="/img/business.png" alt="business" />
+                </div>
+            </div>
         </div>
     )
 }

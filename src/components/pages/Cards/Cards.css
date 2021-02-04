@@ -114,6 +114,14 @@
     justify-content: space-between;
 }
 
+.business{
+    display: flex;
+    padding: 150px 30px;
+    width: 100%;
+    justify-content: space-between;
+    background: rgb(252, 242, 242);
+}
+
 .standard-img{
     display: flex;
     justify-content: center;
@@ -122,6 +130,17 @@
 }
 
 .standard-img img{
+    max-width: 100%;
+}
+
+.business-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.business-img img{
     max-width: 100%;
 }
 
@@ -168,6 +187,25 @@
     .standard{
         flex-direction: column;
     }
+
+    .business{
+        display: flex;
+        padding: 30px;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        background: rgb(252, 242, 242);
+    }
+
+    .business-img{
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .business-img img{
+        max-width: 100%;
+    }
+    
     
     .standard-img{
         width: 100%;
