@@ -59,3 +59,79 @@ Link{
     font-size: 2rem;
     display: none;
 }
+
+/* responsive */
+@media screen and (max-width: 991px){
+    .navbar{
+        display: flex;
+        padding: 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .logo{
+        display: flex;
+        width: 50%;
+        cursor: pointer;
+    }
+    
+    .logo img{
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    
+    nav{
+        display: none;
+        width: 90%;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        flex-direction: column;
+        top: 20%;
+        left: 5%;
+        background-color: #222;
+        color: #fff;
+        border: 2px solid #2131c0;
+    }
+    
+    nav ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    nav ul li{
+        display: flex;
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding-top: 10px;
+        color: #fff;
+    }
+    
+    nav ul li.active{
+        border-bottom: 4px solid #2131c0;
+    }
+    Link{
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .toggle{
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        font-size: 2rem;
+        display: block;
+    }    
+}
