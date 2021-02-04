@@ -50,6 +50,39 @@ function About() {
                     </div>
                 </div>
             </div>
+
+            {/* partners */}
+
+            <div className="partners">
+                <h3>Partners</h3>
+
+                <div className="partners-details">
+                    <div className="partner">
+                        <img src="/img/p1.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p2.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p3.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p4.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p5.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p6.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p7.png" alt="partner"/>
+                    </div>
+                    <div className="partner">
+                        <img src="/img/p8.png" alt="partner"/>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
