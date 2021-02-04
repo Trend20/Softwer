@@ -111,7 +111,7 @@ function Home() {
                   <h1>Connect with us</h1>
                   <div className="footer-nav">
                       <h3>Menu</h3>
-                      <a href="#">Home</a>
+                      <a href="#" className="active">Home</a>
                       <a href="#">About</a>
                       <a href="#">Types of cards</a>
                       <a href="#">Plans</a>

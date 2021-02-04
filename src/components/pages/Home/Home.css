@@ -582,4 +582,62 @@
         padding: 20px;
     }    
 }
-/* end of siign up section */
+/* end of sign up section */
+
+/* footer styles */
+
+footer{
+    display: flex;
+    background: rgb(210, 231, 214);
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 30px;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu h1{
+    display: flex;
+    font-size: 4rem;
+    width: 30%;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer-nav h3{
+    font-size: 2rem;
+}
+
+.footer-nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-nav a.active,
+.footer-nav a:hover{
+    color: blue;
+}
+
+.connect{
+    display: flex;
+}
+
+.connect p{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.connect p a{
+    margin-left: 10px;
+    text-decoration: none;
+}
