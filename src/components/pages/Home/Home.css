@@ -562,7 +562,7 @@
     }
     
     .sign-up h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -571,15 +571,17 @@
     
     .sign-up p{
         margin-top: 30px;
-        font-size: 1.2rem;
-        width: 70%;
+        font-size: 1rem;
+        width: 100%;
         text-align: center;
         line-height: 1.5;
     }
     
     .sign-up button{
-        width: 50%;
-        padding: 20px;
+        width: 80%;
+        padding: 18px;
+        font-size: 1rem;
+        display: flex;
     }    
 }
 /* end of sign up section */
@@ -695,7 +697,7 @@ footer{
     
     .footer-menu h1{
         display: flex;
-        font-size: 2rem;
+        font-size: 1.5rem;
         width: 100%;
     }
     
@@ -707,7 +709,7 @@ footer{
     }
     
     .footer-nav h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .footer-nav a{
@@ -777,5 +779,7 @@ footer{
     
     .copyright{
         margin-top: 20px;
+        width: 100%;
+        font-size: 0.8rem;
     }
 }
