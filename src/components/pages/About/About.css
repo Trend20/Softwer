@@ -130,3 +130,48 @@
 }
 
 /* end of intro */
+
+/* creatores */
+
+.creators{
+    display: flex;
+    padding: 30px;
+    padding-top: 150px;
+    width: 100%;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.head-title{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.head-title h3{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.head-title h1{
+    font-size: 3rem;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.head-description{
+    margin-top: 70px;
+    width: 50%;
+    display: flex;
+}
+
+.head-description p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 500;
+}

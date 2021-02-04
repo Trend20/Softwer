@@ -16,6 +16,21 @@ function About() {
                     <img src="/img/intro.png" alt="intro" />
                 </div>
             </div>
+
+            {/* creators */}
+
+            <div className="creators">
+                <div className="head">
+                    <div className="head-title">
+                        <h3>Our creators</h3>
+                        <h1>It`s different working with us</h1>
+                    </div>
+
+                    <div className="head-description">
+                        <p>The team of knowledgeable developers has made the solution to simplify your life. We take care of every customer and work on upgrading the application.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
