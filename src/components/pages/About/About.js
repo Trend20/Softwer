@@ -30,6 +30,25 @@ function About() {
                         <p>The team of knowledgeable developers has made the solution to simplify your life. We take care of every customer and work on upgrading the application.</p>
                     </div>
                 </div>
+
+                {/* team members */}
+
+                <div className="team">
+                    <div className="member">
+                        <img src="/img/team1.png" alt="team" />
+                        <h3>Adam Smith</h3>
+                    </div>
+
+                    <div className="member">
+                        <img src="/img/team2.png" alt="team" />
+                        <h3>Tom Green</h3>
+                    </div>
+
+                    <div className="member">
+                        <img src="/img/team3.png" alt="team" />
+                        <h3>Robert Lee</h3>
+                    </div>
+                </div>
             </div>
         </div>
     )

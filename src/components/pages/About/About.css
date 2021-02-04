@@ -138,6 +138,7 @@
     padding: 30px;
     padding-top: 150px;
     width: 100%;
+    flex-direction: column;
 }
 
 .head{
@@ -174,4 +175,12 @@
     font-size: 1.3rem;
     line-height: 1.5;
     font-weight: 500;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-top: 50px;
+    grid-gap: 20px;
+    width: 100%;
 }
