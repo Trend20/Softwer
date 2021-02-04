@@ -105,6 +105,8 @@
 
 /* end card intro */
 
+
+
 .standard{
     display: flex;
     padding: 150px 30px;
@@ -151,8 +153,67 @@
     color: blue;
     display: flex;
     align-items: center;
+    font-weight: 700;
 }
 
 .options p i{
     margin-right: 30px;
+    display: flex;
 }
+
+
+/* responsiveness */
+
+@media screen and (max-width: 991px){
+    .standard{
+        flex-direction: column;
+    }
+    
+    .standard-img{
+        width: 100%;
+    }
+    
+    .standard-img img{
+        max-width: 100%;
+    }
+    
+    .standard-text{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .standard-text h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .standard-text p{
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    
+    .options{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .options p{
+        color: blue;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+    }
+    
+    .options p i{
+        margin-right: 30px;
+        display: flex;
+    }   
+    
+    .standard-text button{
+        width: 60%;
+        padding: 20px;
+        font-size: 1rem;
+    }
+}
+/* end standard styles */
