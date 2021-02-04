@@ -1,4 +1,5 @@
 import React from 'react'
+import { BiRightArrow } from 'react-icons/bi'
 import './Cards.css';
 
 function Cards() {
@@ -29,10 +30,18 @@ function Cards() {
                     <p>Such type will be useful for people who want to start checking their casual cherges</p>
 
                     <div className="options">
-                        <p>Theft insurance</p>
-                        <p>Foreign medical expenses</p>
-                        <p>Extended goods warranty</p>
+                        <p>
+                        <i><BiRightArrow /></i>
+                            Theft insurance</p>
+                        <p>
+                        <i><BiRightArrow /></i>
+                            Foreign medical expenses</p>
+                        <p>
+                        <i><BiRightArrow /></i>
+                            Extended goods warranty</p>
                     </div>
+
+                    <button className="card-btn">Open bank account</button>
                 </div>
             </div>
         </div>
