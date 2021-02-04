@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.card-intro{
+    display: flex;
+    padding: 30px;
+    padding-top: 150px;
+    width: 100%;
+    background: rgb(218, 243, 232);
+}
+
+.card-intro-text{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.card-intro-text h1{
+    font-size: 3.5rem;
+    width: 80%;
+}
