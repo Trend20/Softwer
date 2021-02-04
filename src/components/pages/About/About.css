@@ -1,0 +1,39 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 100px 30px;
+}
+
+.about-intro{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.intro-text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.intro-text h1{
+    font-size: 3rem;
+    width: 70%;
+}
+
+.intro-text p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.intro-text button{
+    margin-top: 30px;
+    width: 70%;
+    font-weight: 500;
+    outline: none;
+    padding: 20px;
+}
