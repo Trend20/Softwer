@@ -32,7 +32,7 @@
     line-height: 1;
 }
 
-.hero-text button{
+.button{
     width: 70%;
     margin-top: 30px;
     padding: 20px;
@@ -40,6 +40,7 @@
     font-weight: 700;
     outline: none;
     border: none;
+    cursor: pointer;
     font-size: 1.2rem;
     border-radius: 7px;
     background: rgb(57, 189, 123);
@@ -518,3 +519,67 @@
     }
 }
 /* end of chat section */
+
+/*  sign up section*/
+.sign-up{
+    padding: 200px 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sign-up h1{
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.sign-up p{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.sign-up button{
+    width: 30%;
+}
+
+/* responsiveness */
+@media screen and (max-width:991px){
+    .sign-up{
+        padding: 50px 30px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sign-up h1{
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .sign-up p{
+        margin-top: 30px;
+        font-size: 1.2rem;
+        width: 70%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .sign-up button{
+        width: 50%;
+        padding: 20px;
+    }    
+}
+/* end of siign up section */

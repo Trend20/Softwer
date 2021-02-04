@@ -11,7 +11,7 @@ function Home() {
                 <div className="hero-text">
                     <h5>The mobile bank</h5>
                     <h1>The world at your fingertips</h1>
-                    <button>Open bank account</button>
+                    <button className="button">Open bank account</button>
                 </div>
 
                 <div className="hero-slides">
@@ -86,7 +86,7 @@ function Home() {
                        <div className="head">
                             <p>Follow Us:</p>
                         </div>
-                        
+
                         <div className="icons">
                            <i><MdCastConnected /></i>
                            <i><FaFacebook /></i>
@@ -95,6 +95,13 @@ function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            {/* sign-up */}
+            <div className="sign-up">
+                <h1>Sign up and get your bank account in 8 minutes</h1>
+                <p>Sign up right now and enjoy the wide variety of possibilities which our application provides.</p>
+                <button className="button">Open bank account</button>
             </div>
         </div>
     )
