@@ -54,7 +54,7 @@ function About() {
             {/* partners */}
 
             <div className="partners">
-                <h3>Partners</h3>
+                <h3>Our Partners</h3>
 
                 <div className="partners-details">
                     <div className="partner">

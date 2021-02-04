@@ -267,3 +267,37 @@
         max-width: 100%;
     }
 }
+
+
+/* partners section */
+
+.partners{
+    display: flex;
+    padding: 30px;
+    padding-top: 200px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.partners h3{
+    color: blue;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.partners-details{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    width: 100%;
+    grid-gap: 30px;
+}
+
+.partner{
+    display: flex;
+    margin-top: 100px;
+}
+
+.partner img{
+    cursor: pointer;
+}
