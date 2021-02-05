@@ -25,44 +25,24 @@ function Navbar() {
                 </Link>
                 <nav>
                     <ul>
-                        <li className="active">
-                            <Link to="/"
-                            style={{ fontWeight: '700',
-                            textDecoration: 'none',
-                            cursor: 'pointer'
-                            }}>Home</Link>
+                        <li>
+                            <Link to="/">Home</Link>
                         </li>
 
                         <li>
-                            <Link to="/about"
-                            style={{ fontWeight: '700',
-                            textDecoration: 'none',
-                            cursor: 'pointer'
-                            }}>About</Link>
+                            <Link to="/about">About</Link>
                         </li>
 
                         <li>
-                            <Link to="/cards"
-                            style={{ fontWeight: '700',
-                            textDecoration: 'none',
-                            cursor: 'pointer'
-                            }}>Types of Cards</Link>
+                            <Link to="/cards">Types of Cards</Link>
                         </li>
 
                         <li>
-                            <Link to="/plans"
-                            style={{ fontWeight: '700',
-                            textDecoration: 'none',
-                            cursor: 'pointer'
-                            }}>Plans</Link>
+                            <Link to="/plans">Plans</Link>
                         </li>
 
                         <li>
-                            <Link to="/registration" 
-                            style={{ fontWeight: '700',
-                                     textDecoration: 'none',
-                                     cursor: 'pointer'
-                            }}>Registration</Link>
+                            <Link to="/registration">Registration</Link>
                         </li>
                     </ul>
                 </nav>
