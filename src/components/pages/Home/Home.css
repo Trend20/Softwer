@@ -1,0 +1,588 @@
+.home-page{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    padding: 70px 3px;
+    background: rgb(210, 231, 214);
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px;
+}
+
+.hero-text h5{
+    font-size: 1.5rem;
+    color: blue;
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-text h1{
+    font-size: 5rem;
+    width: 80%;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.button{
+    width: 70%;
+    margin-top: 30px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    background: rgb(57, 189, 123);
+}
+
+.hero-slides{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-slides img{
+    width: 100%;
+}
+
+/* responsiveness */
+
+@media screen and (max-width:991px){
+    .home-page{
+        display: flex;
+        width: 100%;
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+    
+    .hero{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px 20px;
+    }
+    
+    .hero-text h5{
+        font-size: 1.5rem;
+        color: blue;
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .hero-text h1{
+        font-size: 2rem;
+        width: 90%;
+        margin-top: 20px;
+        line-height: 1;
+    }
+    
+    .hero-text button{
+        width: 50%;
+        margin-top: 30px;
+        padding: 20px;
+        color: #fff;
+        font-weight: 700;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        border-radius: 7px;
+        background: rgb(57, 189, 123);
+    }
+    
+    .hero-slides{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    
+    .hero-slides img{
+        width: 100%;
+    }
+}
+/* end of hero section */
+
+/* card section */
+
+.card{
+    display: flex;
+    width: 100%;
+    background: rgb(245, 231, 231);
+    padding: 70px 30px;
+}
+
+.card-text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 70px 0px;
+    margin-left: 30px;
+}
+
+.card-text h3{
+    font-size: 3.2rem;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.card-description{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.card-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+
+/* responsiveness */
+
+@media screen and (max-width: 991px){
+    .card{
+        display: flex;
+        width: 100%;
+        background: rgb(245, 231, 231);
+        padding: 30px;
+        flex-direction: column;
+    }
+    
+    .card-text{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 30px 0px;
+        margin-left: 0px;
+    }
+    
+    .card-text h3{
+        font-size: 2rem;
+        width: 90%;
+        margin-top: 30px;
+    }
+    
+    .card-description{
+        margin-top: 30px;
+        font-size: 1rem;
+        line-height: 1.5;
+        width: 100%;
+    }
+    
+    .card-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-image img{
+        width: 100%;
+    }    
+}
+/* end of card section */
+
+/* travel section */
+
+.travel{
+    display: flex;
+    padding: 150px 30px;
+    width: 100%;
+    background: rgb(245, 245, 245);
+}
+
+
+.travel-img{
+    display: flex;
+    width: 50%;
+}
+
+.travel-img img{
+    max-width: 100%;
+}
+
+
+.travel-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.travel-text h1{
+    font-size: 3rem;
+    width: 60%;
+    display: flex;
+}
+
+.travel-text h5{
+    font-size: 1.5rem;
+    color: blue;
+    display: flex;
+    margin-top: 50px;
+}
+
+.travel-text p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+
+/* responsiveness */
+
+@media screen and  (max-width: 991px){
+    .travel{
+        display: flex;
+        padding: 150px 30px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    .travel-img{
+        display: flex;
+        width: 100%;
+    }
+    
+    .travel-img img{
+        max-width: 100%;
+    }
+    
+    
+    .travel-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .travel-text h1{
+        font-size: 2rem;
+        width: 100%;
+        display: flex;
+    }
+    
+    .travel-text h5{
+        font-size: 1.5rem;
+        color: blue;
+        display: flex;
+        margin-top: 50px;
+    }
+    
+    .travel-text p{
+        margin-top: 30px;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    
+}
+/* end of travel section */
+
+/* account-demo section */
+
+.account-demo{
+    display: flex;
+    width: 100%;
+    padding: 100px 30px;
+    align-items: center;
+}
+
+.demo-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.demo-text h1{
+    font-size: 3rem;
+}
+
+.demo-text p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    width: 90%;
+    line-height: 1.5;
+}
+
+.demo-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.demo-image img{
+    display: flex;
+    max-width: 100%;
+}
+
+
+/* responsiveness */
+
+@media screen and (max-width:991px){
+    .account-demo{
+        display: flex;
+        width: 100%;
+        padding: 100px 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .demo-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .demo-text h1{
+        font-size: 2rem;
+    }
+    
+    .demo-text p{
+        margin-top: 30px;
+        font-size: 1rem;
+        width: 90%;
+        line-height: 1.5;
+    }
+    
+    .demo-image{
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    
+}
+/* end of demo section */
+
+/* chat section */
+
+.chat{
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, rgb(245, 231, 231), rgb(210, 231, 214));
+}
+
+.chat-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-image img{
+    display: flex;
+    max-width: 100%;
+}
+
+.chat-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.chat-text h1{
+    width: 50%;
+    font-size: 3.5rem;
+}
+
+.chat-text p{
+    margin-top: 50px;
+    width: 60%;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.chat-text img{
+    margin-top: 30px;
+    max-width: 60%;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.head{
+    display: flex;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    margin-top: 50px;
+}
+
+.icons i{
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 991px){
+    .chat{
+        display: flex;
+        width: 100%;
+        padding-top: 100px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        background: linear-gradient(to top, rgb(245, 231, 231), rgb(210, 231, 214));
+    }
+    
+    .chat-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .chat-image img{
+        display: flex;
+        max-width: 100%;
+    }
+    
+    .chat-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .chat-text h1{
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    .chat-text p{
+        margin-top: 20px;
+        width: 80%;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    
+    .chat-text img{
+        margin-top: 30px;
+        max-width: 60%;
+    }
+    
+    .social{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .head{
+        display: flex;
+        font-weight: 600;
+        width: 100%;
+    }
+    
+    .icons{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .icons i{
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+}
+/* end of chat section */
+
+/*  sign up section*/
+.sign-up{
+    padding: 200px 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sign-up h1{
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.sign-up p{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.sign-up button{
+    width: 30%;
+}
+
+/* responsiveness */
+@media screen and (max-width:991px){
+    .sign-up{
+        padding: 50px 30px;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .sign-up h1{
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .sign-up p{
+        margin-top: 30px;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .sign-up button{
+        width: 80%;
+        padding: 18px;
+        font-size: 1rem;
+        display: flex;
+    }    
+}
+/* end of sign up section */
+
