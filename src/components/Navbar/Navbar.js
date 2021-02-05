@@ -28,33 +28,6 @@ function Navbar() {
             <div className="header">
 
                 {/* logo  */}
-
-                {/* <Link to="/" className="logo">
-                    <img src={logo} alt="logo" />
-                </Link>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/cards">Types of Cards</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/plans">Plans</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/registration">Registration</Link>
-                        </li>
-                    </ul>
-                </nav> */}
                   <div className="logo-nav">
                     <div className="logo-container">
                        <Link to="/">
@@ -66,37 +39,48 @@ function Navbar() {
                     <ul className={click ? "nav-options active" : "nav-options"}>
 
                         <li className="option" onClick={closeMobileMenu}>
-                           <Link to="/">Home</Link>
+                           <Link to="/" style={{
+                               textDecoration: 'none',
+                               fontSize: '1.2rem',
+                               fontWeight: '700'
+                           }}>Home</Link>
                         </li>
 
                         <li className="option" onClick={closeMobileMenu}>
-                           <Link to="/about">About</Link>
+                           <Link to="/about" style={{
+                               textDecoration: 'none',
+                               fontSize: '1.2rem',
+                               fontWeight: '700'
+                           }}>About</Link>
                         </li>
 
                         <li className="option" onClick={closeMobileMenu}>
-                           <Link to="/cards">Types of Cards</Link>
+                           <Link to="/cards" style={{
+                               textDecoration: 'none',
+                               fontSize: '1.2rem',
+                               fontWeight: '700'
+                           }}>Types of Cards</Link>
                         </li>
 
-                        <li className="option mobile-option" onClick={closeMobileMenu}>
-                           <Link to="/plans">Plans</Link>
+                        <li className="option" onClick={closeMobileMenu}>
+                           <Link to="/plans"
+                           style={{
+                            textDecoration: 'none',
+                            fontSize: '1.2rem',
+                            fontWeight: '700'
+                        }}>Plans</Link>
                         </li>
-                        
-                        <li className="option mobile-option" onClick={closeMobileMenu}>
-                           <Link to="/registration<">Registration</Link>
+
+                        <li className="option" onClick={closeMobileMenu}>
+                           <Link to="/registration" style={{
+                               textDecoration: 'none',
+                               fontSize: '1.2rem',
+                               fontWeight: '700'
+                           }}>Registration</Link>
                         </li>
                     </ul>
                  </div>
 
-                 <ul className="signin-up">
-                    <li className="sign-in" onClick={closeMobileMenu}>
-                        <a href="#">SIGN-IN</a>
-                    </li>
-                    <li onClick={closeMobileMenu}>
-                        <a href="" className="signup-btn">
-                           SIGN-UP
-                        </a>
-                    </li>
-                 </ul>
                  <div className="mobile-menu" onClick={handleClick}>
                     {click ? (
                      <CloseMenu className="menu-icon" />
