@@ -12,11 +12,11 @@ function Footer() {
                   <h1>Connect with us</h1>
                   <div className="footer-nav">
                       <h3>Menu</h3>
-                      <a href="#" className="active">Home</a>
-                      <a href="#">About</a>
-                      <a href="#">Types of cards</a>
-                      <a href="#">Plans</a>
-                      <a href="#">Registration</a>
+                      <a href="/" className="active">Home</a>
+                      <a href="/about">About</a>
+                      <a href="/cards">Types of cards</a>
+                      <a href="/plans">Plans</a>
+                      <a href="/registration">Registration</a>
                   </div>
 
                   <div className="footer-nav">
