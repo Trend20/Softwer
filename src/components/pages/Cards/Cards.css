@@ -69,7 +69,7 @@
     .card-intro{
         flex-direction: column;
         padding: 20px;
-        padding-top: 30px;
+        padding-top: 100px;
     }
     
     .card-intro-text{
