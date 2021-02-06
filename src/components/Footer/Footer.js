@@ -53,7 +53,7 @@ function Footer() {
                   </div>
               </div>
 
-              <p className="copyright">2020 © softwer. All Rights Reserved</p>
+              <p className="copyright">2021 © softwer. All Rights Reserved</p>
           </footer>
     )
 }
