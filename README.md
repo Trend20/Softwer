@@ -1,6 +1,7 @@
 # Softwer Landig Page
-
-![](/img/sft.png)
+<!-- 
+![](/img/sft.png) -->
+<img src="ReadmeImages/sft.png">
 
 **Site URL**: https://softwer-259fc.web.app/
 
@@ -16,7 +17,7 @@
 
 ### How to run the project.
   
-  -Open your terminal in Linux or CMD in Windows and run: *git clone https://github.com/Trend20/Give-Well.git*
+  -Open your terminal in Linux or CMD in Windows and run: *git clone https://github.com/Trend20/Softwer.git*
   -Then Open the cloned project folder in your favourite code editor.
 
   -Open the terminal and *cd* into the project folder. 
