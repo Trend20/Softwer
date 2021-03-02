@@ -1,6 +1,6 @@
 # Softwer Landig Page
 
-![](img/sft.png)
+![](/img/sft.png)
 
 **Site URL**: https://softwer-259fc.web.app/
 
@@ -11,7 +11,7 @@
    -Learn React Router.
 
    -Learn and use React Icons.
-   
+
    -Learn how to use Firebase.
 
 ### How to run the project.
