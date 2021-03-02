@@ -9,7 +9,9 @@
 **Firebase for Hosting**
 ## Goal of this project
    -Learn React Router.
+
    -Learn and use React Icons.
+   
    -Learn how to use Firebase.
 
 ### How to run the project.
