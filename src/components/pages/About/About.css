@@ -1,11 +1,11 @@
-.about{
+.about {
     display: flex;
     flex-direction: column;
     width: 100%;
     z-index: -1;
 }
 
-.about-intro{
+.about-intro {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -14,7 +14,7 @@
     background: rgb(247, 230, 230);
 }
 
-.intro-text{
+.intro-text {
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -22,19 +22,19 @@
     margin-left: 100px;
 }
 
-.intro-text h1{
+.intro-text h1 {
     font-size: 3rem;
     width: 70%;
 }
 
-.intro-text p{
+.intro-text p {
     margin-top: 30px;
     font-size: 1.2rem;
     line-height: 1.5;
     opacity: 0.7;
 }
 
-.intro-text button{
+.intro-text button {
     margin-top: 30px;
     width: 70%;
     font-weight: 700;
@@ -47,24 +47,33 @@
     padding: 25px;
 }
 
-.intro-image{
+.intro-image {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
 }
 
-.intro-image img{
+.intro-image img {
     justify-content: center;
     align-items: center;
     display: flex;
     max-width: 100%;
 }
 
+.button {
+    cursor: pointer;
+}
+
+.button:hover {
+    background: blue;
+}
+
+
 /* responsive */
 
-@media screen and (max-width: 991px){
-    .about{
+@media screen and (max-width: 991px) {
+    .about {
         display: flex;
         flex-direction: column;
         width: 90%;
@@ -72,8 +81,7 @@
         margin-left: 15px;
         padding-top: 0px;
     }
-    
-    .about-intro{
+    .about-intro {
         display: flex;
         width: 100%;
         padding-top: 100px;
@@ -81,8 +89,7 @@
         justify-content: space-between;
         background: rgb(247, 230, 230);
     }
-    
-    .intro-text{
+    .intro-text {
         display: flex;
         width: 100%;
         flex-direction: column;
@@ -90,20 +97,17 @@
         margin-left: 0px;
         padding: 20px;
     }
-    
-    .intro-text h1{
+    .intro-text h1 {
         font-size: 2rem;
         width: 100%;
     }
-    
-    .intro-text p{
+    .intro-text p {
         margin-top: 30px;
         font-size: 1rem;
         line-height: 1.5;
         opacity: 0.7;
     }
-    
-    .intro-text button{
+    .intro-text button {
         margin-top: 30px;
         width: 80%;
         font-weight: 700;
@@ -115,15 +119,13 @@
         background: rgb(64, 209, 153);
         padding: 20px;
     }
-    
-    .intro-image{
+    .intro-image {
         display: flex;
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    
-    .intro-image img{
+    .intro-image img {
         justify-content: center;
         align-items: center;
         display: flex;
@@ -131,11 +133,13 @@
     }
 }
 
+
 /* end of intro */
+
 
 /* creatores */
 
-.creators{
+.creators {
     display: flex;
     padding: 30px;
     padding-top: 150px;
@@ -143,43 +147,43 @@
     flex-direction: column;
 }
 
-.head{
+.head {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-.head-title{
+.head-title {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.head-title h3{
+.head-title h3 {
     color: blue;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.head-title h1{
+.head-title h1 {
     font-size: 3rem;
     margin-top: 20px;
     width: 60%;
 }
 
-.head-description{
+.head-description {
     margin-top: 70px;
     width: 50%;
     display: flex;
 }
 
-.head-description p{
+.head-description p {
     font-size: 1.3rem;
     line-height: 1.5;
     font-weight: 500;
 }
 
-.team{
+.team {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     margin-top: 50px;
@@ -187,69 +191,64 @@
     width: 100%;
 }
 
-.member{
+.member {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.member img{
+.member img {
     display: flex;
     max-width: 100%;
 }
 
-.member h3{
+.member h3 {
     margin-top: 20px;
 }
 
+
 /* responsive */
-@media screen and (max-width: 991px){
-    .creators{
+
+@media screen and (max-width: 991px) {
+    .creators {
         display: flex;
         padding: 30px;
         padding-top: 50px;
         width: 100%;
         flex-direction: column;
     }
-    
-    .head{
+    .head {
         display: flex;
         width: 100%;
         justify-content: space-between;
         flex-direction: column;
     }
-    
-    .head-title{
+    .head-title {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    
-    .head-title h3{
+    .head-title h3 {
         color: blue;
         font-size: 1.2rem;
         font-weight: 500;
     }
-    
-    .head-title h1{
+    .head-title h1 {
         font-size: 1.5rem;
         margin-top: 20px;
         width: 100%;
     }
-    
-    .head-description{
+    .head-description {
         margin-top: 20px;
         width: 100%;
         display: flex;
     }
-    
-    .head-description p{
+    .head-description p {
         font-size: 1rem;
         line-height: 1.5;
         font-weight: 500;
     }
-    
-    .team{
+    .team {
         display: grid;
         grid-template-columns: repeat(1, 2fr);
         margin-top: 50px;
@@ -257,14 +256,12 @@
         width: 100%;
         justify-content: center;
     }
-
-    .member{
+    .member {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    
-    .member img{
+    .member img {
         display: flex;
         max-width: 100%;
     }
@@ -273,7 +270,7 @@
 
 /* partners section */
 
-.partners{
+.partners {
     display: flex;
     padding: 30px;
     padding-top: 200px;
@@ -281,13 +278,13 @@
     flex-direction: column;
 }
 
-.partners h3{
+.partners h3 {
     color: blue;
     font-weight: 500;
     font-size: 2rem;
 }
 
-.partners-details{
+.partners-details {
     padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 2fr);
@@ -295,50 +292,46 @@
     grid-gap: 30px;
 }
 
-.partner{
+.partner {
     display: flex;
     margin-top: 100px;
     justify-content: center;
 }
 
-.partner img{
+.partner img {
     cursor: pointer;
 }
 
+
 /* responsive */
 
-@media screen and (max-width: 991px){
-    .partners{
+@media screen and (max-width: 991px) {
+    .partners {
         display: flex;
         padding: 30px;
         padding-top: 200px;
         width: 100%;
         flex-direction: column;
     }
-    
-    .partners h3{
+    .partners h3 {
         color: blue;
         font-weight: 500;
         font-size: 2rem;
     }
-    
-    .partners-details{
+    .partners-details {
         padding-top: 50px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         grid-gap: 5px;
     }
-    
-    .partner{
+    .partner {
         display: flex;
         margin-top: 20px;
         justify-content: center;
     }
-    
-    .partner img{
+    .partner img {
         cursor: pointer;
         max-width: 100%;
     }
-    
 }
