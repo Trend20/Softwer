@@ -100,13 +100,14 @@
 		grid-gap: 0px;
 	}
 	.nav-options.active {
-		background: #9899d1;
+		background: #f8f8fa;
 		left: 0;
 		opacity: 1;
 		transition: all 0.5s ease;
 		z-index: 1;
 		align-content: center;
 		padding-left: 0px;
+		border: 2px solid rgb(109, 189, 149);
 	}
 
 	.menu-icon {
