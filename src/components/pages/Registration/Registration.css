@@ -1,126 +1,131 @@
-.account{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.account {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
-#form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 150px 30px;
-    width: 70%;
-    margin: auto;
-}
-
-#form h1{
-    font-size: 3rem;
+#form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 150px 30px;
+	width: 70%;
+	margin: auto;
 }
 
-#form p{
-    margin-top: 30px;
-    color: blue;
-    font-size: 1.5rem;
+#form h1 {
+	font-size: 3rem;
 }
 
-.form-fields{
-    width: 100%;
+#form p {
+	margin-top: 30px;
+	color: blue;
+	font-size: 1.5rem;
 }
 
-.form-group{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.form-fields {
+	width: 100%;
 }
 
-.form-group label{
-    font-size: 1.2rem;
-    font-weight: 500;
+.form-group {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
-.form-group input{
-    width: 100%;
-    display: flex;
-    padding: 25px;
-    border: none;
-    border-radius: 7px;
-    outline: none;
-    box-shadow: 10px 10px 10px 10px rgb(238, 229, 229);
-    margin-top: 1px;
+.form-group label {
+	font-size: 1.2rem;
+	font-weight: 500;
 }
 
-.form-group input::placeholder{
-    font-size: 1.3rem;
-    font-weight: 500;
+.form-group input {
+	width: 100%;
+	display: flex;
+	padding: 25px;
+	border: none;
+	border-radius: 7px;
+	outline: none;
+	box-shadow: 5px 5px 5px 5px rgb(238, 229, 229);
+	margin-top: 1px;
 }
 
-textarea{
-    padding: 20px;
-    margin-top: 10px;
-    outline: none;
-    border: none;
-    border-radius: 7px;
-    box-shadow: 10px 10px 10px 10px rgb(238, 229, 229);
+.form-group input::placeholder {
+	font-size: 1.3rem;
+	font-weight: 500;
 }
 
-textarea::placeholder{
-    font-size: 1.3rem;
-    font-weight: 500;
+textarea {
+	padding: 20px;
+	margin-top: 10px;
+	outline: none;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 5px 5px 5px 5px rgb(238, 229, 229);
 }
 
-#form button{
-    margin-top: 50px;
-    padding: 25px;
-    outline: none;
-    width: 40%;
-    border: none;
-    border-radius: 7px;
-    background: #29c490;
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #fff;
-    cursor: pointer;
+textarea::placeholder {
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+#form button {
+	margin-top: 50px;
+	padding: 25px;
+	outline: none;
+	width: 40%;
+	border: none;
+	border-radius: 7px;
+	background: #29c490;
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.5s ease-out;
+}
+
+#form button:hover {
+	background: blue;
 }
 
 /* responsive */
 
-@media screen and (max-width: 991px){
-    .account{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    #form{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 100px;
-        width: 100%;
-        margin: auto;
-    }
-    
-    #form h1{
-        font-size: 2rem;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        text-align: center;
-    }
-    
-    #form p{
-        margin-top: 30px;
-        color: blue;
-        font-size: 1rem;
-        text-align: center;
-    }
-    
-    #form button{
-        margin-top: 20px;
-        padding: 20px;
-        outline: none;
-        width: 60%;
-        font-size: 1rem;
-    }
+@media screen and (max-width: 991px) {
+	.account {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	#form {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 100px;
+		width: 100%;
+		margin: auto;
+	}
+
+	#form h1 {
+		font-size: 2rem;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		text-align: center;
+	}
+
+	#form p {
+		margin-top: 30px;
+		color: blue;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	#form button {
+		margin-top: 20px;
+		padding: 20px;
+		outline: none;
+		width: 60%;
+		font-size: 1rem;
+	}
 }

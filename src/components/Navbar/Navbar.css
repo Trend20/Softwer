@@ -1,118 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*Desktop View*/
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 40px;
-    height: 80px;
-    box-shadow: 3px 3px 3px rgb(233, 231, 231);
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    background:  rgb(250, 250, 250);
-  }
-  .logo-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 40px;
+	height: 80px;
+	box-shadow: 3px 3px 3px rgb(233, 231, 231);
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background: rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif !important;
+}
+.logo-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
 
-  .logo-nav ul{
-      display: flex;
-      width: 60%;
-  }
+.logo-nav ul {
+	display: flex;
+	width: 60%;
+}
 
-  .logo-nav ul li{
-      display: flex;
-  }
+.logo-nav ul li {
+	display: flex;
+}
 
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .logo {
-    width: 45px;
-    height: 45px;
-  }
-  .nav-options {
-    padding-left: 25px;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 50px;
-    list-style-type: none;
-  }
-  
-  .option :hover {
-    color: #214bd4;
-  }
-  .mobile-menu {
-    display: none;
-  }
+.logo-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo {
+	width: 45px;
+	height: 45px;
+}
+.nav-options {
+	padding-left: 25px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-gap: 50px;
+	list-style-type: none;
+}
+
+.option {
+	text-transform: uppercase;
+	color: #000 !important;
+}
+
+.option:hover {
+	color: #214bd4;
+}
+.mobile-menu {
+	display: none;
+}
 
 /* responsive */
 @media (max-width: 648px) {
-    /*Mobile View */
-    .header {
-      padding: 0px 10px;
-    }
-    .logo {
-      width: 45px;
-      height: 45px;
-    }
-    .logo-nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-      }
-    
-      .logo-nav ul{
-          display: flex;
-          width: 100%;
-      }
-    
-      .logo-nav ul li{
-          display: flex;
-      }
-    
-    .nav-options {
-      display: flex;
-      width: 100%;
-      height: 350px;
-      position: absolute;
-      top: 80px;
-      left: -100%;
-      opacity: 0;
-      transition: all 0.5s ease;
-      flex-direction: column;
-      list-style-type: none;
-      grid-gap: 0px;
-    }
-    .nav-options.active {
-      background: #9899d1;
-      left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-      align-content: center;
-      padding-left: 0px;
-    }
-  
-    .menu-icon {
-      width: 45px;
-      height: 45px;
-    }
-    .option {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 10vw;
-      padding: 30px 0px;
-    }
-  }
-  .mobile-menu {
-    display: block;
-  }
-  
+	/*Mobile View */
+	.header {
+		padding: 0px 10px;
+	}
+	.logo {
+		width: 45px;
+		height: 45px;
+	}
+	.logo-nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.logo-nav ul {
+		display: flex;
+		width: 100%;
+	}
+
+	.logo-nav ul li {
+		display: flex;
+	}
+
+	.nav-options {
+		display: flex;
+		width: 100%;
+		height: 350px;
+		position: absolute;
+		top: 80px;
+		left: -100%;
+		opacity: 0;
+		transition: all 0.5s ease;
+		flex-direction: column;
+		list-style-type: none;
+		grid-gap: 0px;
+	}
+	.nav-options.active {
+		background: #9899d1;
+		left: 0;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1;
+		align-content: center;
+		padding-left: 0px;
+	}
+
+	.menu-icon {
+		width: 45px;
+		height: 45px;
+	}
+	.option {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 10vw;
+		padding: 30px 0px;
+	}
+}
+.mobile-menu {
+	display: block;
+}
